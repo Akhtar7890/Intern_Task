@@ -1,0 +1,113 @@
+
+.body{
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size:2.8rem;
+    color: red;
+
+}
+h3{
+    text-align: center;
+    font-size:1.2rem;
+    color:black;
+}
+.hed{
+    background-image: url(backimg.png);
+    margin: 0;
+    
+
+}
+.hed .heding{
+    width: 60%;
+    height: relative;
+    float: right;
+    padding-right: 200px;
+}
+.hed .logo{
+    margin-top: 10px;
+    padding: 20px;
+    padding-left: 150px;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 30%;
+    background-color: grey;
+    text-decoration: none;
+    word-spacing: 30px;
+    margin: 2px 5px;
+}
+ul{
+    text-align: center;
+    margin: 5px;
+}
+li{
+    display: inline-block;
+    font-size: larger;
+    color: aliceblue;
+}
+li:hover{
+    color:blue;
+    cursor: pointer;
+}
+.food-card{
+    border: 4px  solid lightgray;
+    border-radius: 18px;
+    width:300px;
+    padding:8px;
+    margin: 30px;
+    text-align: center;
+
+}
+.h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img{
+    width:100%;
+    height: 50%;
+    border-radius: 18px;
+}
+.btn{
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: hotpink;
+    border:black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+}
+.food-card:hover{
+    animation-name: card-animation;
+    animation-duration: 2sec;
+    animation-fill-mode: forwards;
+
+}
+@keyframes card-animation{
+    100%{
+        width:350px;
+    }
+}
+.footer{
+    margin: 0;
+    padding: 0;
+}
+.ftr{
+    background-color:lightgray;
+    padding: 30px;
+    text-align: center;
+}
+pre{
+    font-size: 1.2rem;
+    color: red;
+}
